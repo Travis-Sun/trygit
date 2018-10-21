@@ -12,6 +12,7 @@
 from time import sleep
 from win32pdh import *
 
+
 class Counter(object):
     # The dwType field from GetCounterInfo returns the following, or'ed.
     # These come from WinPerf.h
